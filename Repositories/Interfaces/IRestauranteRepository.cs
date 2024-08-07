@@ -1,6 +1,8 @@
-﻿namespace MesaLivre.Repositories.Interfaces
+﻿using MesaLivre.Models;
+
+namespace MesaLivre.Repositories.Interfaces
 {
-    public interface IRestauranteRepository
+    public interface IRestauranteRepository : IBaseRepository<Restaurante>
     {
 
     }

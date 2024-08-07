@@ -134,3 +134,4 @@ C:\Users\Yurip\source\repos\MesaLivre\obj\Debug\net8.0\refint\MesaLivre.dll
 C:\Users\Yurip\source\repos\MesaLivre\obj\Debug\net8.0\MesaLivre.pdb
 C:\Users\Yurip\source\repos\MesaLivre\obj\Debug\net8.0\MesaLivre.genruntimeconfig.cache
 C:\Users\Yurip\source\repos\MesaLivre\obj\Debug\net8.0\ref\MesaLivre.dll
+C:\Users\Yurip\source\repos\MesaLivre\obj\Debug\net8.0\MesaLivre.sourcelink.json
