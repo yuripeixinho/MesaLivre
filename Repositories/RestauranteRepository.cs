@@ -10,5 +10,13 @@ namespace MesaLivre.Repositories
         public RestauranteRepository(AppDbContext context) : base(context)
         {
         }
+
+        public async Task<Restaurante> GetRestauranteById(int id)
+        {
+            return await _context.Restaurantes
+                          .Include(r => r.Endereco)
+                          .Include(r => r.Telefones)
+                          .FirstOrDefaultAsync(r => r.Id == id);
+        }
     }
 }

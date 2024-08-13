@@ -20,7 +20,7 @@ namespace MesaLivre.Repositories
 
         public async Task<T> GetById(int id)
         {
-            return await _context.Set<T>().FindAsync();
+            return await _context.Set<T>().FindAsync(id);
         }
 
         public async Task<T> Insert(T entity)

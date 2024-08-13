@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MesaLivre")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7ee6dee9a408c36e3191da1da748efeee081903")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fd4dca290a462aab6f11c562812d61e9b7581a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MesaLivre")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MesaLivre")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

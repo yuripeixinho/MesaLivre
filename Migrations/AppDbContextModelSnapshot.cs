@@ -74,11 +74,11 @@ namespace MesaLivre.Migrations
                     b.Property<int>("EnderecoID")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("HoraAbertura")
-                        .HasColumnType("datetime2");
+                    b.Property<TimeSpan>("HoraAbertura")
+                        .HasColumnType("time");
 
-                    b.Property<DateTime>("HoraFechamento")
-                        .HasColumnType("datetime2");
+                    b.Property<TimeSpan>("HoraFechamento")
+                        .HasColumnType("time");
 
                     b.Property<string>("Nome")
                         .IsRequired()
@@ -86,7 +86,8 @@ namespace MesaLivre.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("EnderecoID");
+                    b.HasIndex("EnderecoID")
+                        .IsUnique();
 
                     b.ToTable("Restaurantes");
                 });
@@ -101,7 +102,8 @@ namespace MesaLivre.Migrations
 
                     b.Property<string>("DDD")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(3)
+                        .HasColumnType("nvarchar(3)");
 
                     b.Property<string>("Numero")
                         .IsRequired()
@@ -145,8 +147,8 @@ namespace MesaLivre.Migrations
             modelBuilder.Entity("MesaLivre.Models.Restaurante", b =>
                 {
                     b.HasOne("MesaLivre.Models.Endereco", "Endereco")
-                        .WithMany()
-                        .HasForeignKey("EnderecoID")
+                        .WithOne()
+                        .HasForeignKey("MesaLivre.Models.Restaurante", "EnderecoID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

@@ -12,6 +12,7 @@ builder.Services.
     options.UseSqlServer(builder.Configuration.GetConnectionString("ServerConnection")));
 
 builder.Services.AddScoped<IRestauranteRepository, RestauranteRepository>();
+builder.Services.AddScoped<IEnderecoRepository, EnderecoRepository>();
 
 
 builder.Services.AddControllers();

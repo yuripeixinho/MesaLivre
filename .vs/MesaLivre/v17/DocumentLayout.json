@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Yurip\\source\\repos\\MesaLivre\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yurip\\source\\repos\\MesaLivre\\Repositories\\Interfaces\\IBaseRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\Interfaces\\IBaseRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{537DC81F-B848-4A90-AD7A-FF568DD47873}|MesaLivre.csproj|c:\\users\\yurip\\source\\repos\\mesalivre\\controllers\\restaurantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{537DC81F-B848-4A90-AD7A-FF568DD47873}|MesaLivre.csproj|solutionrelative:controllers\\restaurantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yurip\\source\\repos\\MesaLivre\\Repositories\\RestauranteRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\RestauranteRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yurip\\source\\repos\\MesaLivre\\Repositories\\Interfaces\\IRestauranteRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\Interfaces\\IRestauranteRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{537DC81F-B848-4A90-AD7A-FF568DD47873}|MesaLivre.csproj|c:\\users\\yurip\\source\\repos\\mesalivre\\models\\dtos\\restaurante\\restauranteupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{537DC81F-B848-4A90-AD7A-FF568DD47873}|MesaLivre.csproj|solutionrelative:models\\dtos\\restaurante\\restauranteupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IBaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\MesaLivre\\Repositories\\Interfaces\\IBaseRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IBaseRepository.cs",
-              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\MesaLivre\\Repositories\\Interfaces\\IBaseRepository.cs",
-              "RelativeToolTip": "Repositories\\Interfaces\\IBaseRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T01:19:57.362Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RestauranteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\MesaLivre\\Repositories\\RestauranteRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\RestauranteRepository.cs",
-              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\MesaLivre\\Repositories\\RestauranteRepository.cs",
-              "RelativeToolTip": "Repositories\\RestauranteRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Title": "RestauranteUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\MesaLivre\\Models\\DTOS\\Restaurante\\RestauranteUpdateDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTOS\\Restaurante\\RestauranteUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\MesaLivre\\Models\\DTOS\\Restaurante\\RestauranteUpdateDTO.cs",
+              "RelativeToolTip": "Models\\DTOS\\Restaurante\\RestauranteUpdateDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T23:35:10.155Z"
+              "WhenOpened": "2024-08-12T23:11:21.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRestauranteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\MesaLivre\\Repositories\\Interfaces\\IRestauranteRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IRestauranteRepository.cs",
-              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\MesaLivre\\Repositories\\Interfaces\\IRestauranteRepository.cs",
-              "RelativeToolTip": "Repositories\\Interfaces\\IRestauranteRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwcAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "RestauranteController.cs",
+              "DocumentMoniker": "C:\\Users\\Yurip\\source\\repos\\MesaLivre\\Controllers\\RestauranteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RestauranteController.cs",
+              "ToolTip": "C:\\Users\\Yurip\\source\\repos\\MesaLivre\\Controllers\\RestauranteController.cs*",
+              "RelativeToolTip": "Controllers\\RestauranteController.cs*",
+              "ViewState": "AQIAADUAAAAAAAAAAABAwEsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T23:34:53.663Z"
+              "WhenOpened": "2024-08-09T23:55:17.526Z",
+              "EditorCaption": ""
             }
           ]
         }
